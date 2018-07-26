@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
     {
         mFunctionSubs.add(new FunctionSub("circle",R.layout.circle));
-        mFunctionSubs.add(new FunctionSub("circle",R.layout.circle));
-        mFunctionSubs.add(new FunctionSub("circle",R.layout.circle));
-        mFunctionSubs.add(new FunctionSub("circle",R.layout.circle));
-        mFunctionSubs.add(new FunctionSub("circle",R.layout.circle));
+        mFunctionSubs.add(new FunctionSub("histogram",R.layout.histogram));
+        mFunctionSubs.add(new FunctionSub("line",R.layout.line));
+        mFunctionSubs.add(new FunctionSub("oval",R.layout.oval));
+        mFunctionSubs.add(new FunctionSub("path",R.layout.path));
     }
 
     @Override
